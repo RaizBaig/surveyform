@@ -25,7 +25,7 @@ form{
   }
 .question{
    order: 1;
-  width: 10em;
+  width: 15em;
   text-align: right;
   padding-right: 0.5em;
   font-size: 25px;
@@ -33,7 +33,7 @@ form{
 
 .answer{
     order: 2;
-    flex: none;
+    flex: auto;
     width: auto;
     margin-left: 15em;
     padding:1em;
@@ -103,7 +103,7 @@ p{
     font-size: large;
 }
 
-input[type=text]:focus, textarea:focus , select :focus {
-    box-shadow: 0 0 10px rgb(22, 211, 123);
+input[type=text]:focus, textarea:focus, select :focus  {
+    box-shadow: 0 0 30px rgb(22, 211, 123);
    
   }
