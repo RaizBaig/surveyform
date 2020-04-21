@@ -46,12 +46,15 @@ input[type="text"] {
     width: 15em;
     height: 2em;
 }
+
 input[type="number"]{
     border: 2px solid black;
     border-radius: 5px;
     width: 15em;
     height: 2em;
 }
+
+
 select{
     border: 2px solid black;
     border-radius: 5px;
@@ -99,3 +102,8 @@ input[type="submit"]:hover, input[type="reset"]:hover{
 p{
     font-size: large;
 }
+
+input[type=text]:focus, textarea:focus , select :focus {
+    box-shadow: 0 0 10px rgb(22, 211, 123);
+   
+  }
