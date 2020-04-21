@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Survey Form</title>
+    </head>
+    <h1>Survey Form</h1>
+    <body>
+       <div class="container">
+        <form>
+            <p>Let us know how we can improve our Web Development BootCamp(WBC)</p>
+            <div>
+                <div class="question">
+                    <label for="name" ><b>Name:</b></label>
+                </div>
+                <div class="answer">
+                    <input type="text"  name="name" id="name" placeholder="Enter Your Name" required>
+                </div>                
+            </div>
+    
+            <div>
+               <div class="question">
+                <label for="email" ><b>Email:</b> </label>
+               </div> 
+                <div class="answer">
+                    <input type="text"  id="email" placeholder="Enter Your Email" required>
+                </div>
+                
+            </div>
+            
+    
+            <div>
+                <div class="question">
+                    <label for="age" ><b>Age:</b> </label>
+                </div>
+                <div class="answer">
+                    <input type="text" id="age" min="18" max="70" placeholder="Enter Your Age" required>
+                </div>                
+            </div>
+    
+            <div>
+                <div class="question">
+                    <label for="number" ><b>Phone Number:</b> </label>
+                </div>
+                <div class="answer">
+                    <input type="number"  id="number" placeholder="Mobile Number" required>
+                </div>                
+            </div>
+            
+            
+            <div>
+                <div class="question">
+                    <lable class="lable">Which option you prefer most to learn in WBC:</lable>
+                </div>
+                <div class="answer">
+                    <select>
+                        <option value=Books(pdf)>Books(pdf)</option>
+                        <option value=Freecode>Freecodecamp</option>
+                        <option value=Youtube>Youtube Videos</option>
+                    </select>
+                </div>                
+            </div>
+    
+            <div>
+                <div class="question">
+                    <label>Will you recommend WBC to your Friends?:</label>
+                </div>
+                <div class="answer">
+                <input type="radio" id="definitely" value="Definitely">Definitely<br>
+                <input type="radio" id="maybe" value="May be">May Be<br>
+                <input type="radio" id="notsure" value="Not sure">Not Sure<br>
+                </div>                
+            </div>
+
+            <div>
+                <div class="question">
+                    <lable>Things that should be improved in future:</lable>
+                </div>
+                <div class="answer">
+                <input type="checkbox"  value="Teaching skills">Teaching skills<br>
+                <input type="checkbox"  value="Projects">Projects<br>
+                <input type="checkbox"  value="Webinars">Webinars<br>
+                <input type="checkbox"  value="Links">Links to be shared<br>
+                <input type="checkbox"  value="Pdf">More PDF<br>
+                </div>              
+            </div>
+
+            <div>
+                <div class="question">
+                    <lable for="Suggestions" class="lable">Any Suggestions </lable>
+                </div>
+                <div class="answer">
+                    <textarea id="Suggestions" rows=5 cols="20">
+                    </textarea>
+                </div>  
+                <div>
+                    <div>
+                        <input  type="submit" value=Submit >
+                    
+                    </div>
+                </div>             
+            </div>
+        </form>        
+       </div>    
+    </body>
+</html>
